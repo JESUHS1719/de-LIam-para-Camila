@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Para Camila 💖</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #c471ed, #f64f59, #ff66b2);
+      color: #fff0f5;
+      text-align: center;
+      overflow-x: hidden;
+       position: relative;
+       height: 100vh;
+      }
+       .hearts {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: 0;
+        pointer-events: none;
+      }
+      .hearts span {
+        position: absolute;
+        display: block;
+        width: 40px;
+        height: 40px;
+        background: url('https://cdn-icons-png.flaticon.com/512/833/833472.png') no-repeat center center;
+        background-size: contain;
+        animation: float 10s linear infinite;
+        opacity: 0.9;
+        filter: drop-shadow(0 0 6px #ff69b4);
+      }
+      @keyframes float {
+        0% {
+          transform: translateY(100vh) scale(0.8);
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-10vh) scale(1.3);
+          opacity: 0;
+        }
+      }
+      .gift {
+        margin-top: 100px;
+        cursor: pointer;
+        transition: transform 0.3s;
+        z-index: 2;
+        position: relative;
+      }
+      .gift:hover {
+        transform: scale(1.1);
+      }
+      .content {
+        display: none;
+        animation: fadeIn 2s ease;
+        padding: 20px;
+        position: relative;
+        z-index: 2;
+      }
+      @keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity: 1;}
+      }
+      h1 {
+        font-size: 2.5em;
+        margin-top: 0;
+        color: #fff;
+      }
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 30px;
+      }
+      .gallery img {
+        width: 200px;
+        border: 4px solid #fff;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: transform 0.3s;
+        box-shadow: 0 0 15px #ff99cc;
+      }
+      .gallery img:hover {
+        transform: scale(1.05);
+      }
+      .popup {
+        display: none;
+        position: fixed;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        background: #fff0f5;
+        padding: 20px;
+        border: 2px solid #ff66b2;
+        border-radius: 10px;
+        z-index: 10;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        color: #4a0033;
+      }
+      .popup p {
+        margin: 0;
+        font-size: 1.1em;
+      }
+      .close {
+        margin-top: 10px;
+        background-color: #ff66b2;
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        cursor: pointer;
+        border-radius: 8px;
+      }
+      audio {
+        display: none;
+      }
+      .love-text {
+        max-width: 800px;
+        margin: 40px auto;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 0 15px #ffffff55;
+      }
+    </style>
+  </head>
+  <body>
+
+<div class="hearts">
+  <span style="left:5%; animation-delay: 0s;"></span>
+  <span style="left:15%; animation-delay: 1s;"></span>
+  <span style="left:25%; animation-delay: 2.5s;"></span>
+  <span style="left:35%; animation-delay: 1.5s;"></span>
+  <span style="left:45%; animation-delay: 3s;"></span>
+  <span style="left:55%; animation-delay: 0.8s;"></span>
+  <span style="left:65%; animation-delay: 2.8s;"></span>
+  <span style="left:75%; animation-delay: 1.2s;"></span>
+  <span style="left:85%; animation-delay: 2s;"></span>
+  <span style="left:95%; animation-delay: 3.5s;"></span>
+</div>
+
+<audio id="music" loop>
+  <source src="TU_MUSICA.mp3" type="audio/mpeg">
+</audio>
+
+<img src="https://i.pinimg.com/originals/bd/72/00/bd72001e5922879ea6f4110b271ff3b8.jpg" class="gift" id="gift" width="450" alt="Snoopy Feliz Cumpleaños">
+
+
+<div class="content" id="content">
+  <h1>🎉💕 ¡Feliz cumpleaños Mi Princesita Hermosa Camila!💕🎉</h1>
+  <div class="love-text">
+    <p>Mi preciosísima Camila, mi amor eterno,
+
+Hoy, en este día tan especial, mi corazón se desborda de alegría y gratitud al celebrar un año más de tu maravillosa existencia. Eres, sin la menor duda, la melodía más dulce en la sinfonía de mi vida, la luz que ilumina cada uno de mis pasos y el faro que guía mi camino. Te amo con una intensidad que supera cualquier palabra, con una profundidad que siento en lo más hondo de mi ser. Eres mi universo entero, la razón principal de mi sonrisa diaria y el motor inagotable de mi felicidad.
+
+Cada instante a tu lado es un tesoro invaluable. Atesoro en mi alma cada una de nuestras "Pato aventuras", desde las más espontáneas hasta las más planeadas, esos viajes conociendo Cordobita y exploraciones que se han convertido en la esencia de nuestra complicidad. Recuerdo con una ternura infinita nuestras interminables charlas bajo las estrellas, los abrazos que me recargan el alma y, sobre todo, nuestras risas. ¡Ah, esas risas! Son la banda sonora de nuestra historia, carcajadas sinceras que tienen el poder de disipar cualquier sombra y llenar de pura dicha cada rincón de mi existencia.
+
+Hemos navegado juntos por mares de calma y, en ocasiones, por aguas un poco más turbulentas. Hemos compartido triunfos que nos han hecho sentir invencibles y superado desafíos que nos han unido aún más. A pesar de los buenos momentos y de los que han sido más complicados, mi amor por ti no ha hecho más que crecer, arraigándose con cada experiencia compartida. Eres mi refugio, mi confidente, mi inspiración y, sobre todo, el amor de mi vida.
+
+Gracias, mi amor, por tu presencia constante, por tu paciencia infinita, por la ternura de tus gestos, por tu mirada llena de comprensión y por el amor incondicional que me brindas cada día. Gracias por ser esa persona auténtica y maravillosa que me complementa a la perfección. Contigo, la vida es una aventura constante, un poema que se escribe a diario con versos de amor y felicidad.
+
+Hoy, en tu cumpleaños, deseo que cada uno de tus sueños se haga realidad, que la vida te colme de bendiciones y que la alegría te acompañe en cada paso. Nada me haría más feliz que seguir coleccionando momentos inolvidables a tu lado, celebrando la vida y construyendo un futuro lleno de amor y complicidad.
+
+¡Feliz cumpleaños, mi reina! Que tengas un día tan extraordinario y hermoso como tú. Te amo con cada latido de mi corazón, hoy y siempre.
+
+Con todo mi amor, la luna y las estrellas "Liam tu novio el que tanto te ama"! 💖</p>
+  </div>
+  <div class="gallery">
+    <img src="https://i.ibb.co/5X6wSpbj/Imagen-de-Whats-App-2025-07-27-a-las-00-22-29-12fa6f41.jpg" 
+    onclick="showPopup('Amo tu sonrisa en esta foto, iluminas mi mundo.💖')">
+    <img src="https://i.ibb.co/5W4f1YCC/Imagen-de-Whats-App-2025-07-27-a-las-00-22-29-c1a88f26.jpg" 
+    alt="Icono regalo" 
+    onclick="showPopup('¡Cada latido de mi corazón pronuncia tu nombre! 💖')">
+    <img src="https://i.ibb.co/DDxxPyCL/Imagen-de-Whats-App-2025-07-27-a-las-00-22-29-90d199ef.jpg" alt="Foto 3" onclick="showPopup('Eres la melodía más dulce en la sinfonía de mi vida.💖')">
+    <img src="https://i.ibb.co/Y4HkgWjH/Imagen-de-Whats-App-2025-07-26-a-las-22-40-12-9fc0aff2.jpg" alt="Foto 4" onclick="showPopup('Contigo, hasta lo simple es especial.💖')">
+  </div>
+</div>
+
+<div class="popup" id="popup">
+  <p id="popupText"></p>
+  <button class="close" onclick="closePopup()">Cerrar</button>
+</div>
+<script>
+ const gift = document.getElementById('gift');
+ const content = document.getElementById('content');
+ const music = document.getElementById('music');
+ gift.addEventListener('click', () => {
+ gift.style.display = 'none';
+ content.style.display = 'block';
+ music.play();
+ });
+
+ function showPopup(message) {
+ document.getElementById('popupText').textContent = message;
+ document.getElementById('popup').style.display = 'block';
+ }
+ function closePopup() {
+  document.getElementById('popup').style.display = 'none';
+}
+</script>
+
+</body>
+</html>
